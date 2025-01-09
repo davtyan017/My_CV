@@ -1,0 +1,81 @@
+.myname {
+  /* border: 1px solid; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 360px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  align-items: center;
+  .name {
+    padding: 0px 5px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h1 {
+      /* border: 1px solid; */
+      font-size: 36px;
+      color: #623e2a;
+      padding: 12px 0;
+    }
+    h2 {
+      font-size: 26px;
+      text-transform: uppercase;
+      color: #623e2a;
+    }
+    .Contact {
+      > p {
+        color: #623e2a;
+        font-size: 22px;
+        padding: 18px 0;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      ul {
+        line-height: 22px;
+      }
+    }
+    hr {
+      width: 100%;
+      color: #623e2a;
+      border: 2px solid;
+    }
+  }
+}
+.cv-sections {
+  padding: 20px 10px;
+  width: 360px;
+  p {
+    padding: 18px 0;
+    color: #623e2a;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  .cv-summary {
+    span {
+      line-height: 22px;
+      font-size: 18px;
+    }
+  }
+  
+  .cv-skills ,.cv-education {
+    hr{
+        width: 100%;
+      color: #623e2a;
+      border: 1px solid;
+    }
+    ul {
+      line-height: 22px;
+      u {
+        color: #623e2a;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      li {
+    
+        font-size: 18px;
+      }
+    }
+  }
+}
