@@ -1,6 +1,37 @@
-{
-    "skills": {
-        "soft": ["hard working"],
-        "hard": ["javascript"]
+[
+  {
+    "section": "Personal Information",
+    "content": {
+      "name": "Hayk Davtyan",
+      "profession": "Web Developer",
+      "contact": {
+        "phone": "+37433987366",
+        "address": "Sharur Street 28/2",
+        "email": "davtyann.hayk@gmail.com",
+        "github": "https://github.com/davtyan017"
+      }
     }
-}
+  },
+  {
+    "section": "Professional Summary",
+    "content": "Dedicated and detail-oriented Frontend Developer with 3+ years of experience..."
+  },
+  {
+    "section": "Education",
+    "content": [
+      {
+        "degree": "BA in Electrical Energetics (EE)",
+        "duration": "2017-2021",
+        "institution": "National Polytechnic University of Armenia"
+      }
+    ]
+  },
+  {
+    "section": "Skills",
+    "content": {
+      "Programming Languages": ["JavaScript", "HTML", "CSS"],
+      "Frameworks & Libraries": ["React/Redux"],
+      "Tools & Platforms": ["Git/GitHub", "npm", "Figma"]
+    }
+  }
+]
