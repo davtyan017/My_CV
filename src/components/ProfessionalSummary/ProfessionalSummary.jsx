@@ -1,4 +1,5 @@
 import React from "react";
+import "./style_summ.css"
 
 export default function ProfessionalSummary({ content }) {
   return (

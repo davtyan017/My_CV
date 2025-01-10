@@ -1,9 +1,10 @@
 import React from "react";
 import img from "/images/joh.jpg";
+import "./style_pers.css"
 
 export default function PersonalInfo({ content }) {
   return (
-    <div>
+    <div className="myname">
       <div className="portrait">
         <img src={img} alt="Portrait" />
       </div>

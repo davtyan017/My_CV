@@ -17,7 +17,7 @@ export default function CV() {
         }
         return response.json();
       })
-      .then((data) => setData(data)) 
+      .then((data) => setData(data))
       .catch((error) => setError(error.message));
   }, []);
 
@@ -40,9 +40,7 @@ export default function CV() {
 
   return (
     <div className="container">
-      <header className="myname">
-        {personalInfo && <PersonalInfo content={personalInfo} />}
-      </header>
+      <header>{personalInfo && <PersonalInfo content={personalInfo} />}</header>
       <section className="cv-sections">
         {professionalSummary && (
           <ProfessionalSummary content={professionalSummary} />

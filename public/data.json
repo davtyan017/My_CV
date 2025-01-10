@@ -14,7 +14,7 @@
   },
   {
     "section": "Professional Summary",
-    "content": "Dedicated and detail-oriented Frontend Developer with 3+ years of experience..."
+    "content": "Dedicated and detail-oriented Frontend Developer with 1+ years of experience..."
   },
   {
     "section": "Education",
@@ -30,8 +30,8 @@
     "section": "Skills",
     "content": {
       "Programming Languages": ["JavaScript", "HTML", "CSS"],
-      "Frameworks & Libraries": ["React/Redux"],
-      "Tools & Platforms": ["Git/GitHub", "npm", "Figma"]
+      "Frameworks & Libraries": ["React / Redux"],
+      "Tools & Platforms": ["Git / GitHub", "npm", "Figma"]
     }
   }
 ]

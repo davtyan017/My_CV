@@ -1,0 +1,8 @@
+.cv-summary {
+    text-wrap: wrap;
+    width: 360px;
+    span {
+      line-height: 22px;
+      font-size: 18px;
+    }
+  }

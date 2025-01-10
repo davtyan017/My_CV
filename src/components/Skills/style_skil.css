@@ -1,0 +1,28 @@
+.cv-skills{
+    width: 360px ;
+    hr {
+      width: 100%;
+      color: #623e2a;
+      border: 1px solid;
+    }
+    ul {
+      /* line-height: 22px; */
+      u {
+        color: #623e2a;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      li {
+        font-size: 18px;
+        color: white;
+        border: 2px solid;
+        width: 120px;
+        padding: 4px;
+        border-radius: 20px;
+        margin: 2px  0;
+        text-align: center;
+        background-color: gray;
+
+      }
+    }
+  }
