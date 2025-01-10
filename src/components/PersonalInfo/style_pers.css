@@ -16,7 +16,7 @@
   padding: 10px;
   border: 2px solid;
   img {
-    object-fit:cover;
+    object-fit: cover;
     width: 320px;
     opacity: 1;
     overflow: hidden;
@@ -54,5 +54,16 @@
     width: 100%;
     color: #623e2a;
     border: 2px solid;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .myname {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }

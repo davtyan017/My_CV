@@ -12,3 +12,11 @@
     text-transform: uppercase;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .cv-sections {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
