@@ -14,7 +14,7 @@
   },
   {
     "section": "Professional Summary",
-    "content": "Dedicated and detail-oriented Frontend Developer with 1+ years of experience..."
+    "content": "Dedicated and detail-oriented Frontend Developer with 1+ years of experience.I studied at SmartCode development school."
   },
   {
     "section": "Education",
@@ -23,6 +23,16 @@
         "degree": "BA in Electrical Energetics (EE)",
         "duration": "2017-2021",
         "institution": "National Polytechnic University of Armenia"
+      },
+      {
+        "degree": "Certificate of Participation ",
+        "duration": "80-hours training on OOP with C# & .NET",
+        "institution": "Microsoft information Center Armenia"
+      },
+      {
+        "degree": "Front-End Web Development Course",
+        "duration": "2024-2025",
+        "institution": "Smart Code"
       }
     ]
   },

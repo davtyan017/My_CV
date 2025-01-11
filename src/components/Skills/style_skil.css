@@ -1,28 +1,20 @@
-.cv-skills{
-    width: 360px ;
-    hr {
-      width: 100%;
+.cv-skills {
+  text-align: center;
+  ul {
+    i {
       color: #623e2a;
-      border: 1px solid;
+      font-weight: 600;
+      font-size: 28px;
     }
-    ul {
-      /* line-height: 22px; */
-      u {
-        color: #623e2a;
-        font-weight: 600;
-        font-size: 20px;
-      }
-      li {
-        font-size: 18px;
-        color: white;
-        border: 2px solid;
-        width: 120px;
-        padding: 4px;
-        border-radius: 20px;
-        margin: 2px  0;
-        text-align: center;
-        background-color: gray;
-
-      }
+    li {
+      margin: 8px 0;
+      padding: 4px;
+      color: rgb(165, 20, 20);
+      font-size: 24px;
+      line-height: 28px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
     }
   }
+}

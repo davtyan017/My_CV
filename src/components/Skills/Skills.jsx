@@ -6,15 +6,15 @@ export default function Skills({ content }) {
     <section className="cv-skills">
       <p>Skills</p>
       <ul>
-        <u>Programming Languages</u>
+        <i>Programming Languages</i>
         {content["Programming Languages"].map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}
-        <u>Frameworks & Libraries</u>
+        <i>Frameworks & Libraries</i>
         {content["Frameworks & Libraries"].map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}
-        <u>Tools & Platforms</u>
+        <i>Tools & Platforms</i>
         {content["Tools & Platforms"].map((tool, index) => (
           <li key={index}>{tool}</li>
         ))}

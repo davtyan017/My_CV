@@ -1,19 +1,17 @@
 .cv-education {
-    width: 360px ;
-    hr {
-      width: 100%;
-      color: #623e2a;
-      border: 1px solid;
-    }
-    ul {
-      line-height: 22px;
-      u {
-        color: #623e2a;
-        font-weight: 600;
-        font-size: 20px;
-      }
-      li {
-        font-size: 18px;
-      }
+  text-align: center;
+  hr {
+    color: #623e2a;
+    border: 1px solid;
+  }
+  ul {
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    li {
+      font-size: 24px;
     }
   }
+}
