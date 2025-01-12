@@ -11,13 +11,19 @@
 
 .cv-education ul {
   line-height: 28px;
+  width: 80%; 
+
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  text-wrap: wrap;
   gap: 20px;
   padding: 0 20px;
 }
 
 .cv-education ul li {
+  width: 80%; 
+
   line-height: 32px;
   font-size: 24px;
 }
