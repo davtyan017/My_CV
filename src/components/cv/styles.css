@@ -28,7 +28,6 @@
   }
 }
 
-/* Existing media query for larger phones/tablets */
 @media only screen and (max-width: 668px) {
   .cv-sections {
     max-width: 568px;
