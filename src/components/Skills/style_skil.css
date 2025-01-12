@@ -28,8 +28,11 @@
 
 
 @media only screen and (max-width: 768px) {
-  .cv-sections {
-    max-width: 500px;
+  ul {
+    max-width: 568px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }
 
