@@ -15,9 +15,9 @@
   }
 }
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 968px) {
   .cv-sections {
-    max-width: 468px;
+    max-width: 868px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;

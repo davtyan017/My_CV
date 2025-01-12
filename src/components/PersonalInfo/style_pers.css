@@ -33,10 +33,10 @@ gap: 10px;
   
 }
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 968px) {
   .myname {
     margin: auto;
-    width: 568px;
+    width: 868px;
     display: flex;
     align-items: center;
     flex-direction: column;

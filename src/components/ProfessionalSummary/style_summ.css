@@ -6,11 +6,11 @@
   }
 }
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 968px) {
   .cv-summary {
-    width: 500px;
+    width: 868px;
     span {
-      width: 500px;
+      width: 868px;
 
       line-height: 22px;
       font-size: 24px;
