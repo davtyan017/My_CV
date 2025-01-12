@@ -4,10 +4,6 @@ import "./style_pers.css"
 
 export default function PersonalInfo({ content }) {
   return (
-    <div className="myname">
-      <div className="portrait">
-        <img src={img} alt="Portrait" />
-      </div>
       <div className="name">
         <h1>{content.name}</h1>
         <h2>{content.profession}</h2>
@@ -26,6 +22,5 @@ export default function PersonalInfo({ content }) {
           </ul>
         </div>
       </div>
-    </div>
   );
 }

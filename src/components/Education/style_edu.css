@@ -1,17 +1,21 @@
 .cv-education {
   text-align: center;
   hr {
-    color: #623e2a;
+    color: var(--color);
     border: 1px solid;
   }
   ul {
-    line-height: 25px;
+    line-height: 28px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 
     li {
+    line-height: 32px;
+
       font-size: 24px;
+
     }
   }
 }
+

@@ -1,4 +1,7 @@
-body {
+
+:root {
+  --color: #0a0632;
+}body {
   background: #ede57481;
   background: -webkit-linear-gradient(to right, #e1f5c4, #ede57460);
   background: linear-gradient(to right, #ede57465, #ede5747a);

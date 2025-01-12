@@ -1,5 +1,5 @@
 import React from "react";
-import "./style_edu.css"
+import "./style_edu.css";
 
 export default function Education({ content }) {
   return (
@@ -8,9 +8,8 @@ export default function Education({ content }) {
       <ul>
         {content.map((item, index) => (
           <li key={index}>
-            {item.degree || item.certificate} <hr />
-            {item.duration || item.details} <hr />
-            {item.institution || item.organization}
+            {item.degree || item.certificate} |{item.duration || item.details} |
+            {item.institution || item.organization} <hr />
           </li>
         ))}
       </ul>

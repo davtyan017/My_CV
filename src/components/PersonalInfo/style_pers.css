@@ -1,64 +1,37 @@
-.myname {
-  /* border: 1px solid; */
-
-  height: 400px;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 20px 0;
-  align-items: center;
-  > div {
-    width: 360px;
-    height: 360px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-}
-.portrait {
-  padding: 10px;
-  /* border: 2px solid; */
-  img {
-    object-fit: cover;
-    width: 320px;
-    opacity: 1;
-    overflow: hidden;
-  }
-}
 .name {
-  /* border: 1px solid; */
-  padding: 0px 5px;
+  margin: auto;
+  margin-top: 5px;
+  min-height: 420px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  text-align: center;
+gap: 10px;
   h1 {
-    font-size: 36px;
-    color: #623e2a;
+    font-size: 42px;
+    color: var(--color);
     padding: 12px 0;
   }
   h2 {
     font-size: 26px;
     text-transform: uppercase;
-    color: #623e2a;
+    color: var(--color);
   }
   .Contact {
     > p {
-      color: #623e2a;
+      color: var(--color);
       font-size: 22px;
       padding: 18px 0;
       text-transform: uppercase;
       font-weight: 600;
     }
     ul {
-      line-height: 22px;
+      line-height: 32px;
+      font-size: 24px;
     }
   }
-  hr {
-    width: 100%;
-    color: #623e2a;
-    border: 2px solid;
-  }
+  
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
   .myname {

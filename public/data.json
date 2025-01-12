@@ -3,7 +3,7 @@
     "section": "Personal Information",
     "content": {
       "name": "Hayk Davtyan",
-      "profession": "Web Developer",
+      "profession": "Front-End Developer",
       "contact": {
         "phone": "+37433987366",
         "address": "Sharur Street 28/2",
@@ -20,19 +20,19 @@
     "section": "Education",
     "content": [
       {
+        "degree": "Front-End Web Development Course",
+        "duration": " 2024-2025 ",
+        "institution": "Smart Code"
+      },
+      {
         "degree": "BA in Electrical Energetics (EE)",
-        "duration": "2017-2021",
+        "duration": " 2017-2021 ",
         "institution": "National Polytechnic University of Armenia"
       },
       {
         "degree": "Certificate of Participation ",
-        "duration": "80-hours training on OOP with C# & .NET",
+        "duration": " 80-hours training on OOP with C# & .NET ",
         "institution": "Microsoft information Center Armenia"
-      },
-      {
-        "degree": "Front-End Web Development Course",
-        "duration": "2024-2025",
-        "institution": "Smart Code"
       }
     ]
   },
