@@ -39,9 +39,35 @@
   {
     "section": "Skills",
     "content": {
-      "Programming Languages": ["JavaScript", "HTML", "CSS"],
-      "Frameworks & Libraries": ["React / Redux"],
-      "Tools & Platforms": ["Git / GitHub", "npm", "Figma"]
+      "Hard Skills": ["JavaScript", "HTML", "CSS", "React", "Redux"],
+      "Soft Skills": [
+        "Honest",
+        "Responsible",
+        "Detail-oriented",
+        "Fast-learner",
+        "Critical thinking",
+        "Hardworking",
+        "Positive attitude",
+        "Problem-solving",
+        "Teaching skills"
+      ]
     }
+  },{
+    "section": "Projects",
+    "content": [
+      {
+        "name": "Portfolio Website",
+        "link": "https://example.com/portfolio"
+      },
+      {
+        "name": "E-commerce Platform",
+        "link": "https://example.com/ecommerce"
+      },
+      {
+        "name": "Blog Platform",
+        "link": "https://example.com/blog"
+      }
+    ]
   }
+  
 ]

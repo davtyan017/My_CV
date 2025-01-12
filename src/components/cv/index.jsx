@@ -4,6 +4,7 @@ import PersonalInfo from "../PersonalInfo/PersonalInfo";
 import ProfessionalSummary from "../ProfessionalSummary/ProfessionalSummary";
 import Education from "../Education/Education";
 import Skills from "../Skills/Skills";
+import Projects from "../Projects/Projects";
 
 export default function CV() {
   const [data, setData] = useState(null);
@@ -21,6 +22,7 @@ export default function CV() {
       .catch((error) => setError(error.message));
   }, []);
 
+
   if (error) {
     return <div>Error: {error}</div>;
   }
@@ -37,6 +39,7 @@ export default function CV() {
   )?.content;
   const education = data.find((item) => item.section === "Education")?.content;
   const skills = data.find((item) => item.section === "Skills")?.content;
+  const projects = data.find((item) => item.section === "Projects")?.content;
 
   return (
     <div className="container">
@@ -47,7 +50,9 @@ export default function CV() {
         )}
         {education && <Education content={education} />}
         {skills && <Skills content={skills} />}
+        {projects && <Projects content={projects} />}
       </section>
     </div>
   );
 }
+
