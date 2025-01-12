@@ -30,7 +30,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 668px) {
   .projects {
     ul {
       width: 420px;
