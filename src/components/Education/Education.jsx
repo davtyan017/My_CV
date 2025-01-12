@@ -8,6 +8,7 @@ export default function Education({ content }) {
       <ul>
         {content.map((item, index) => (
           <li key={index}>
+            
             {item.degree || item.certificate} |{item.duration || item.details} |
             {item.institution || item.organization} <hr />
           </li>
