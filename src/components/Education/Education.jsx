@@ -7,10 +7,13 @@ export default function Education({ content }) {
       <p>Education</p>
       <ul>
         {content.map((item, index) => (
-          <li key={index}>
-            
-            {item.degree || item.certificate} |{item.duration || item.details} |
-            {item.institution || item.organization} <hr />
+          <li key={index} className="education-item">
+            <span className="degree">{item.degree || item.certificate}</span>
+            <span className="duration">{item.duration || item.details}</span>
+            <span className="institution">
+              {item.institution || item.organization}
+            </span>
+            <hr />
           </li>
         ))}
       </ul>
