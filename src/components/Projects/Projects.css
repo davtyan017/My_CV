@@ -22,7 +22,7 @@
         flex-direction: column;
         text-align: center;
         background-color: #06b8e089;
-        
+
         a{
             color: black;
         }
@@ -30,3 +30,9 @@
     }
   }
   
+
+  @media only screen and (max-width: 768px) {
+    .projects {
+      max-width: 500px;
+    }
+  }
