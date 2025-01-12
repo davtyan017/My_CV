@@ -26,21 +26,40 @@
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .cv-skills {
+    width: 100%; /* Use full width for smaller screens */
+    padding: 10px; /* Add padding to prevent text from touching edges */
+  }
+
+  .cv-skills i {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .cv-skills ul {
+    width: 100%; /* Full width */
+    margin: auto;
+    justify-content: center; /* Center items */
+  }
+
+  .cv-skills ul li {
+    width: 45%; /* Adjust to fit two items per row */
+    font-size: 18px; /* Reduce font size for readability */
+    line-height: 24px; /* Adjust line-height */
+    margin: 6px; /* Add margin between items */
+    padding: 6px; /* Reduce padding for compact layout */
+  }
+}
+
+/* Media query for larger phones/tablets */
 @media only screen and (max-width: 668px) {
   .cv-skills {
-    margin: auto;
-    width: 568px;
+    width: 100%;
   }
-  ul {
-    margin: auto;
-    width:568px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    li {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
+
+  .cv-skills ul li {
+    width: 45%; /* Maintain a compact layout */
+    font-size: 20px; /* Slightly larger font size for readability */
+    line-height: 26px;
   }
 }

@@ -30,19 +30,46 @@
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .projects {
+    width: 100%; /* Use full width to adjust for smaller screen size */
+    padding: 10px; /* Add some padding to avoid touching the screen edges */
+  }
+
+  .projects i {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .projects ul {
+    width: 100%; /* Use full available width */
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Center items on smaller screens */
+    flex-wrap: wrap;
+  }
+
+  .projects ul li {
+    width: 45%; /* Reduce item width to fit multiple items on screen */
+    font-size: 18px; /* Reduce font size for readability */
+    line-height: 24px; /* Adjust line height */
+    margin: 6px; /* Add spacing between items */
+    padding: 8px; /* Reduce padding for compact layout */
+  }
+
+  .projects ul li a {
+    font-size: 16px; /* Adjust link font size */
+  }
+}
+
+/* Media query for larger phones/tablets */
 @media only screen and (max-width: 668px) {
   .projects {
-    ul {
-      width: 568px;
-      margin: auto;
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      li {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-      }
-    }
+    width: 100%;
+  }
+
+  .projects ul li {
+    width: 45%; /* Keep items at 45% width for a compact grid */
+    font-size: 20px; /* Slightly larger font for better readability */
+    line-height: 26px; /* Adjust line height */
   }
 }

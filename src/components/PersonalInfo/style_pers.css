@@ -33,3 +33,47 @@ gap: 10px;
   
 }
 
+@media only screen and (max-width: 430px) {
+  .name {
+    min-height: auto; /* Adjust height for smaller screens */
+    padding: 10px; /* Add padding to prevent text from touching the edges */
+  }
+
+  .name h1 {
+    font-size: 32px; /* Adjust font size for smaller screens */
+    padding: 10px 0;
+  }
+
+  .name h2 {
+    font-size: 20px; /* Adjust font size for better fit */
+  }
+
+  .name .Contact > p {
+    font-size: 18px; /* Slightly smaller font size */
+    padding: 10px 0;
+  }
+
+  .name .Contact ul {
+    font-size: 18px; /* Adjust font size for better readability */
+    padding: 0 10px; /* Add padding for better spacing */
+  }
+}
+
+/* Optional: Media query for larger phones/tablets */
+@media only screen and (max-width: 668px) {
+  .name h1 {
+    font-size: 38px;
+  }
+
+  .name h2 {
+    font-size: 24px;
+  }
+
+  .name .Contact > p {
+    font-size: 20px;
+  }
+
+  .name .Contact ul {
+    font-size: 22px;
+  }
+}

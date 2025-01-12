@@ -11,29 +11,51 @@
     gap: 20px;
 
     li {
-    line-height: 32px;
+      line-height: 32px;
 
       font-size: 24px;
-
     }
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .cv-education {
+    text-align: center;
+  }
+
+  .cv-education hr {
+    width: 90%;
+  }
+
+  .cv-education ul {
+    width: 100%;
+    padding: 0 10px;
+    gap: 16px;
+  }
+
+  .cv-education ul li {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+  }
+}
 
 @media only screen and (max-width: 668px) {
   .cv-education {
     text-align: center;
-    hr {
-      width: 568px;
-    }
-    ul {
-      width: 568px;
-      display: flex;
-      flex-direction: column;
-      li {
-        width: 868px;
-      }
-    }
   }
-  
+
+  .cv-education hr {
+    width: 568px;
+  }
+
+  .cv-education ul {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .cv-education ul li {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
