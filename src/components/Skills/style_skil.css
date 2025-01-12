@@ -28,38 +28,35 @@
 
 @media only screen and (max-width: 430px) {
   .cv-skills {
-    width: 100%; /* Use full width for smaller screens */
-    padding: 10px; /* Add padding to prevent text from touching edges */
+    width: 100%;
+    padding: 10px;
   }
 
   .cv-skills i {
-    font-size: 24px; /* Reduce font size for smaller screens */
+    font-size: 24px;
   }
-
   .cv-skills ul {
-    width: 100%; /* Full width */
+    width: 100%;
     margin: auto;
-    justify-content: center; /* Center items */
+    justify-content: center;
   }
-
   .cv-skills ul li {
-    width: 45%; /* Adjust to fit two items per row */
-    font-size: 18px; /* Reduce font size for readability */
-    line-height: 24px; /* Adjust line-height */
-    margin: 6px; /* Add margin between items */
-    padding: 6px; /* Reduce padding for compact layout */
+    width: 45%;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 6px;
+    padding: 6px;
   }
 }
 
-/* Media query for larger phones/tablets */
 @media only screen and (max-width: 668px) {
   .cv-skills {
     width: 100%;
   }
 
   .cv-skills ul li {
-    width: 45%; /* Maintain a compact layout */
-    font-size: 20px; /* Slightly larger font size for readability */
+    width: 45%;
+    font-size: 20px;
     line-height: 26px;
   }
 }

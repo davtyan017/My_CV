@@ -1,21 +1,22 @@
 .cv-education {
   text-align: center;
-  hr {
-    color: var(--color);
-    border: 1px solid;
-  }
-  ul {
-    line-height: 28px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+}
 
-    li {
-      line-height: 32px;
+.cv-education hr {
+  color: var(--color);
+  border: 1px solid;
+}
 
-      font-size: 24px;
-    }
-  }
+.cv-education ul {
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cv-education ul li {
+  line-height: 32px;
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 430px) {
@@ -24,19 +25,19 @@
   }
 
   .cv-education hr {
-    width: 90%;
+    width: 90%; 
   }
 
   .cv-education ul {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 10px; 
     gap: 16px;
   }
 
   .cv-education ul li {
-    font-size: 18px;
+    font-size: 18px; 
     line-height: 28px;
-    text-align: left;
+    text-align: left; 
   }
 }
 
@@ -46,16 +47,16 @@
   }
 
   .cv-education hr {
-    width: 568px;
+    width: 568px; 
   }
 
   .cv-education ul {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 20px; 
   }
 
   .cv-education ul li {
-    font-size: 20px;
+    font-size: 20px; 
     line-height: 30px;
   }
 }

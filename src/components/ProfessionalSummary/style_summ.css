@@ -1,32 +1,30 @@
 .cv-summary {
   text-align: center;
-  span {
-    line-height: 22px;
-    font-size: 24px;
-  }
+}
+
+.cv-summary span {
+  line-height: 22px;
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 430px) {
   .cv-summary {
-    padding: 0 10px; /* Add padding for better spacing */
+    padding: 0 10px; 
   }
 
   .cv-summary span {
-    width: 100%; /* Use full width for smaller screens */
-    font-size: 18px; /* Adjust font size for better readability */
-    line-height: 20px; /* Adjust line height for smaller screens */
+    font-size: 18px; 
+    line-height: 20px;
   }
 }
 
-/* Media query for larger phones/tablets */
 @media only screen and (max-width: 668px) {
   .cv-summary {
-    width: 568px;
+    width: 100%; 
   }
 
   .cv-summary span {
-    width: 100%; /* Adjust to full width */
-    line-height: 22px;
-    font-size: 24px;
+    font-size: 24px; 
+    line-height: 22px; 
   }
 }
