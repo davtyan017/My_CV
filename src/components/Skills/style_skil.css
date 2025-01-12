@@ -28,9 +28,11 @@
 
 @media only screen and (max-width: 768px) {
   .cv-skills {
+    margin: auto;
     width: 600px;
   }
   ul {
+    margin: auto;
     width: 468px;
     display: flex;
     justify-content: space-evenly;

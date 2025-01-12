@@ -35,6 +35,8 @@ gap: 10px;
 
 @media only screen and (max-width: 768px) {
   .myname {
+    margin: auto;
+    width: 668px;
     display: flex;
     align-items: center;
     flex-direction: column;

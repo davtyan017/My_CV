@@ -34,6 +34,7 @@
   .projects {
     ul {
       width: 420px;
+      margin: auto;
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
