@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 768px) {
   ul {
-    max-width: 568px;
+    max-width: 468px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
