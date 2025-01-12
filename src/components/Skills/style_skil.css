@@ -26,14 +26,14 @@
   }
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 668px) {
   .cv-skills {
     margin: auto;
-    width: 868px;
+    width: 568px;
   }
   ul {
     margin: auto;
-    width: 868px;
+    width:568px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

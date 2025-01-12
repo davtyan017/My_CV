@@ -30,10 +30,10 @@
   }
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 668px) {
   .projects {
     ul {
-      width: 868px;
+      width: 568px;
       margin: auto;
       display: flex;
       justify-content: space-evenly;
