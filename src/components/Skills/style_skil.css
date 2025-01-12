@@ -26,13 +26,20 @@
   }
 }
 
-
 @media only screen and (max-width: 768px) {
+  .cv-skills {
+    width: 600px;
+  }
   ul {
-    max-width: 468px;
+    width: 468px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    li {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: #1c859d75;
+    }
   }
 }
-
