@@ -33,9 +33,3 @@ gap: 10px;
   
 }
 
-@media only screen and (max-width: 668px) {
-  .myname {
-    width:368px;
-    
-  }
-}
