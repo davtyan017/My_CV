@@ -38,16 +38,9 @@
       justify-content: space-evenly;
       flex-wrap: wrap;
       li {
-        /* white-space: nowrap; */
-
         display: flex;
         flex-direction: column;
         text-align: center;
-        background-color: #06b8e089;
-
-        a {
-          color: black;
-        }
       }
     }
   }
