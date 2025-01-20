@@ -1,0 +1,40 @@
+
+:root {
+  --color: #0a0632;
+}body {
+  background: #ede57481;
+  background: -webkit-linear-gradient(to right, #e1f5c4, #ede57460);
+  background: linear-gradient(to right, #ede57465, #ede5747a);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  margin: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 568px;
+    margin: auto;
+  }
+}
